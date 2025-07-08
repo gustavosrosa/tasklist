@@ -6,13 +6,17 @@
   "author": "gustavosrosa <g.dsantosrosa@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3",
     "sucrase": "^3.35.0"
   },
   "scripts": {
-    "dev": "nodemon src/server.js" 
+    "dev": "nodemon src/server.js"
   }
 }
