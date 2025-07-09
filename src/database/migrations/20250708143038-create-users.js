@@ -23,7 +23,7 @@ module.exports = {
             },
             password_hash: {
                 type: Sequelize.STRING,
-                allowNull: false
+                allowNull: false,
             },
             created_at: {
                 type: Sequelize.DATE,
@@ -32,11 +32,11 @@ module.exports = {
             updated_at: {
                 type: Sequelize.DATE,
                 allowNull: false,
-            }
+            },
         });
     },
 
     async down(queryInterface) {
         return queryInterface.dropTable(TABLE);
-    }
+    },
 };

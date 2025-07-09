@@ -3,10 +3,10 @@ module.exports = {
     host: 'localhost',
     username: 'postgres',
     password: 'admin',
-    database: 'tasklist', 
+    database: 'tasklist',
     define: {
         timestamps: true,
         underscored: true,
-        underscoredAll: true
-    }
+        underscoredAll: true,
+    },
 };
